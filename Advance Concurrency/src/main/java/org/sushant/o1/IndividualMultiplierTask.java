@@ -68,9 +68,9 @@ public class IndividualMultiplierTask {
     }
 
     public static void main(String[] args) {
-        double[][] matrixOne = MatrixGenerator.generate(2000, 2000);
-        double[][] matrixTwo = MatrixGenerator.generate(2000, 2000);
-        double[][] result = new double[2000][2000];
+        double[][] matrixOne = MatrixGenerator.generate(100, 100);
+        double[][] matrixTwo = MatrixGenerator.generate(100, 100);
+        double[][] result = new double[100][100];
 
         Date start = new Date();
         IndividualMultiplierTask.multiply(matrixOne, matrixTwo, result);
